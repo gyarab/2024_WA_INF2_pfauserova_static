@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(106, 118, 120);
+    padding: 20px;
+    border: 10px solid;
+    border-image: url(https://as1.ftcdn.net/v2/jpg/06/51/16/74/1000_F_651167466_J3M8IuCVDSjUQJ7JrsEucttoWT45caA2.jpg)30 stretch;
+  }
+  body>h1 {
+    color: rgb(249, 249, 251);
+    font-style: italic;
+  }
+  p {
+    
+    text-align: center;
+    line-height:normal;
+    
+  }
+  @keyframes animace {
+    from {background-color:beige;}
+    to {background-color:rgb(234, 184, 124);}
+  }
+  h2{
+    text-transform: uppercase;
+    text-indent: 5%;
+    margin:0.5cm;
+    background-color: beige;
+    animation-name: animace;
+    animation-duration: 10s;
+
+
+  }
+  table{
+    text-decoration:dotted;
+  }
+
+  #historie{
+    font-size: larger;
+  }
+  ol li{
+    text-align:center;
+  }
+  .definice:hover{
+    background-color: blueviolet;
+  }
+  a:link{
+    color: red;
+  }
+  a:visited{
+    color: green;
+
+  }
+
+
