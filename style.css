@@ -48,5 +48,36 @@ body {
     color: green;
 
   }
+  .galery{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; 
+      flex-wrap: wrap;    
+  }
+  .img{
+      width: 100%;
+      max-width: 200px; 
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
 
+  }
+@media (min-width: 1200px) {
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+    }
 
+}
+@media (max-width: 768px) {
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .img{
+      max-width: 100%;
+    }
+
+  }
